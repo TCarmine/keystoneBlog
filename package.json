@@ -21,6 +21,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "clean": "kill -9 $(lsof -t -i:3000)",
     "start": "node keystone.js"
   }
 }
